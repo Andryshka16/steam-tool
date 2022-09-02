@@ -1,0 +1,155 @@
+body {
+    background: #070d2e;
+    color: white;
+    font-family: Calibri, serif;
+    padding: 10px;
+}
+
+#app {
+    display: flex;
+}
+
+.panel {
+    background: #15214e;
+    border-radius: 20px;
+}
+
+.left {
+    width: 330px;
+    height: 850px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.right {
+    width: 1200px;
+}
+
+.left > * {
+    padding: 10px;
+}
+
+#logo {
+    width: 220px;
+}
+
+#acc {
+    width: 150px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.inlineDiv {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    justify-content: left;
+    border-radius: 10px;
+    width: 170px;
+    cursor: pointer
+}
+
+.btn:hover {
+    background: #1c006b;
+}
+
+.btnName {
+    margin: 0 0 0 20px;
+    font-size: 22px;
+    color: #e0e0e0;
+}
+
+#search {
+    justify-content: left;
+}
+
+#searchInp {
+    width: 250px;
+    line-height: 30px;
+    background: #15214e;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    color: #cbcbcb;
+    outline: none
+}
+
+img {
+    transition: 200ms;
+}
+
+.blackImage {
+    filter: invert(1);
+}
+.blackIcon {
+    filter: invert(1);
+}
+
+.blackIcon:hover {
+    transform: scale(1.25);
+}
+
+#searchIcon:hover {
+    transform: scale(1.25);
+}
+
+.bookmarks {
+    height: 768px;
+    overflow: auto;
+}
+
+.bookmarks::-webkit-scrollbar {
+    width: 10px;
+}
+
+.bookmarks::-webkit-scrollbar-track {
+    background: rgba(241, 241, 241, 0);
+}
+
+.bookmarks::-webkit-scrollbar-thumb {
+    background: #676767;
+}
+
+.bookmarks::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#bookmark {
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+#bookmark:hover {
+    background: #1c006b;
+}
+
+.LogoAndName {
+    width: fit-content;
+    margin: 0;
+}
+
+.LogoAndName > * {
+    margin: 0 30px;
+}
+
+.PriceAndQuantity {
+    width: 220px;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.star {
+    transition: 200ms;
+    width: 25px;
+    cursor: pointer
+}
+
+.star:hover {
+    transform: scale(1.25);
+}
